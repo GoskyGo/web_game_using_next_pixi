@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    background: #EEEEEE;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    right: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.overlay img {
+    padding: 5px;
+}
+
+.overlay img:hover {
+    cursor: pointer;
+    background: #EEEEEE;
+    border-radius: 30px;
+}
